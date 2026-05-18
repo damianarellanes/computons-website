@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Computons Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Intro</a></li>
+							<li><a href="#model">What is a Computon?</a></li>
+							<li><a href="#applications">Applications</a></li>
+							<li><a href="#motivation">Why Computons?</a></li>
+							<li><a href="#resources">Research & Dissemination</a></li>
+							<li><a href="#contact">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<img src="images/logo.svg" alt="The Computons Project" class="project-logo" />
+						<div class="inner">							
+							<h1>The Computon Model</h1>
+							<p>A universal framework to formally reason about compositional high-level computations via categorical semantics.<br /></p>
+							<!--<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>-->
+						</div>
+					</section>
+
+				<!-- The model -->
+					<section id="model" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/computons.svg" alt="" data-position="0% 100%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>What is a computon?</h2>
+									<p>It is the fundamental unit of composition, which defines a high-level computation driven by control. Intuitively, it is a bipartite graph where nodes are typed ports or computation units. A unit is a collection of computing devices each receiving at least one input and producing exactly one output. Edges simply represent either control flow or data flow. There are three major classes:</p>
+									<ul>
+										<li>Trivial computons (only possess ports)</li>
+										<li>Primitive computons (all ports are attached to exactly one unit)</li>
+										<li>Composite computons</li>
+									</ul>
+									<!--<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>-->
+								</div>
+							</div>
+						</section>						
+						<section>							
+							<div class="content">
+								<div class="inner">
+									<h2>Colimit-Semantics of Control-Based Composition</h2>
+									<p>Composing computons into more complex ones is done through algebraic operators characterised as finite colimit constructions in the category of computons. There are operators to form:</p>
+									<ul>
+										<li>Total/partial sequential computons</li>
+										<li>Asynchronous/synchronous parallel computons</li>
+										<li>Open/closed branching computons (cf. non-deterministic choice)</li>
+										<li>Head-iterative computons (cf. while)</li>
+										<li>Tail-iterative computons (cf. do-while)</li>
+									</ul>
+									<!--<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>-->
+								</div>
+							</div>
+							<a href="#" class="image"><img src="images/composition.svg" alt="" data-position="100% 100%" /></a>
+						</section>
+						<section>	
+							<a href="#" class="image"><img src="images/properties.svg" alt="" data-position="0% 100%" /></a>						
+							<div class="content">
+								<div class="inner">
+									<h2>Key computon properties</h2>
+									<ul>
+										<li>Explicit separation of control flow and data flow</li>
+										<li>Separation of composition from operational semantics</li>
+										<li>Control-driven computation</li>
+										<li>Structural correctness-by-construction</li>
+									</ul>
+									<!--<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>-->
+								</div>
+							</div>							
+						</section>	
+						<section id="applications">							
+							<div class="content">
+								<div class="inner">
+									<h2>Applications</h2>
+									<ul>
+										<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S2352220826000179" target="_blank">Compositional LSTMs (<b>Artificial Intelligence</b>)</a>: Section 7.3 of <a href="https://www.sciencedirect.com/science/article/abs/pii/S2352220826000179" target="_blank">this</a></li>										
+										<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S2352220826000179" target="_blank">AWS Infrastructure Deployment (<b>Software Engineering</b>)</a>: Section 7.2 of <a href="https://www.sciencedirect.com/science/article/abs/pii/S2352220826000179" target="_blank">this</a></li>
+										<li><a href="https://arxiv.org/pdf/2506.22687" target="_blank">MDM2-P53 Regulatory Pathway Dynamics (<b>Biomedicine</b>)</a>: Appendix of <a href="https://arxiv.org/pdf/2506.22687" target="_blank">this</a></li>
+										<li><a href="https://arxiv.org/pdf/2506.22687" target="_blank">Clocked Set-Reset Flip-Flop (<b>Electronics</b>)</a>: Appendix of <a href="https://arxiv.org/pdf/2506.22687" target="_blank">this</a></li>
+										<li><a href="https://arxiv.org/pdf/2506.22687" target="_blank">Propositional Formulas (<b>Logic</b>)</b></a>: See <a href="https://arxiv.org/pdf/2506.22687" target="_blank">this paper</a> and the right-hand figure</li>
+									</ul>
+									In addition to the above, the computon model is now being used as a <b>pedagogical tool</b> at Lancaster University to teach functional programming foundations.
+								</div>
+							</div>
+							<a href="#" class="image"><img src="images/applications.svg" alt="" data-position="100% 0%" /></a>
+						</section>					
+					</section>
+
+				<!-- Motivation -->
+					<section id="motivation" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Why Computons?</h2>
+							<p>Classical models of computation like Turing machines a suitable to describe <b>one computation at a time</b> (i.e., a single algorithm). But they don't adequately capture interactions among multiple computing devices.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code-branch"></span>
+									<h3>Computation = Interacting Computing Devices </h3>
+									<p>Instead of a single machine, computation is built from multiple interacting computons to activate their "units" in some order.</p>									
+								</section>
+								<section>
+									<span class="icon major fa-box"></span>
+									<h3>Modularity by black-boxing</h3>
+									<p>Computons are modular black boxes. What matters is how they interact, not their internals.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-exchange-alt"></span>
+									<h3>Control/Data Flow</h3>
+									<p>Control flow defines the order of execution of computons, whilst data flow specifies how data is exchanged among them.</p>
+									<p>Control flow is always present in any composite, i.e., in any high-level computation. Data flow is optional.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-boxes"></span>
+									<h3>Compositionality</h3>
+									<p>Colimit-based composition is a mechanism to inductively combine computons into more complex ones.</p>
+								</section>
+							</div>
+							<!--<ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>-->
+						</div>
+					</section>
+
+				<!-- Resources -->
+					<section id="resources" class="wrapper style2 spotlights">
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h2>Foundations</h2>
+									<ol>
+										<li><a href="https://authors.elsevier.com/a/1mtMX8MrKMn5ip" target="_blank">Damian Arellanes. <i>Compositional Separation of Control Flow and Data Flow</i>. Journal of Logical and Algebraic Methods in Programming, vol. 150, 101125, 2026.</a><br/><!--<a href="https://arxiv.org/pdf/2309.06397" target="_blank"><img src="images/arxiv-logo-light.png" width="7%" height="7%" /></a>	|	--><a href="https://authors.elsevier.com/a/1mtMX8MrKMn5ip" target="_blank">📘</a></li>
+										</br>
+										<li><a href="https://arxiv.org/pdf/2506.22687" target="_blank">Damian Arellanes. <i>Compositional Control-Driven Boolean Circuits</i>. In 22nd International Conference on Relational and Algebraic Methods in Computer Science (RAMICS), 2026.</a><br/><a href="https://arxiv.org/pdf/2506.22687" target="_blank"><img src="images/arxiv-logo-light.png" width="7%" height="7%" /></a>	|	<a href="https://doi.org/10.1007/978-3-032-22469-9_2" target="_blank">📘</a></li>										
+										</br>
+										<li><a href="https://arxiv.org/pdf/2602.14904" target="_blank">Damian Arellanes. <i>Colimit-Based Composition of High-Level Computing Devices</i>, arXiv:2602.14904, 2026.</a><br/><a href="https://arxiv.org/pdf/2602.14904" target="_blank"><img src="images/arxiv-logo-light.png" width="7%" height="7%" /></a></a></li>
+									</ol>
+									<h2>Background Literature</h2>
+									<ol>
+										<li><a href="https://www.readcube.com/articles/10.3389/fcomp.2025.1564048" target="_blank">Damian Arellanes. <i>Models of High-Level Computation</i>. Frontiers in Computer Science Journal, vol. 7, 1564048, 2025.</a></li>										
+									</ol>
+									<!--<h2>Applications</h2>
+									<ol>
+										<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S2352220826000179">Damian Arellanes. Compositional Separation of Control Flow and Data Flow. Journal of Logical and Algebraic Methods in Programming, vol. 150, 101125, 2026.</a></li>
+									</ol>-->
+									<!--<h2>Frameworks</h2>
+									<ol>
+										<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S2352220826000179">Damian Arellanes. Compositional Separation of Control Flow and Data Flow. Journal of Logical and Algebraic Methods in Programming, vol. 150, 101125, 2026.</a></li>
+									</ol>-->	
+									<h2>Talks</h2>
+									<ol>
+										<li><a href="#">Damian Arellanes. <i>Algebraic Composition in Models of High-Level Computation</i>, 2025. PPLV Group, UCL, United Kingdom.</a></li>
+										</br>
+										<li><a href="#">Damian Arellanes. <i>A Category-Theoretic Framework for Algebraically Composing High-Level Computing Devices</i>, 2025. The University of Manchester, United Kingdom.</a></li>										
+									</ol>
+									<h2>Software</h2>
+									<ol>
+										<li><a href="https://github.com/damianarellanes/computons-idris" target="_blank">Idris 2 implementation</a></li>
+									</ol>
+								</div>								
+															
+							</div>
+						</section>
+						<!--<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Applications</h2>
+									<ul>
+										<li><a href="generic.html" class="button">Paper 1</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>-->
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2 style="text-align: right;padding-right: 90px;">Contact Details</h2>
+							<div class="split style1">
+								<!--<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>-->
+								<section></section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Principal Investigator</h3>
+											<span><a href="https://damianarellanes.com" target="_blank">Dr Damian Arellanes</a></span>
+										</li>
+										<li>
+											<h3>Address</h3>
+											<span>Lancaster University, UK<br />
+												InfoLab 21<br />
+												<a href="https://www.lancaster.ac.uk/scc/research/systems/theoretical-computer-science/" target="_blank">TCS Group</a></span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="mailto:damian.arellanes@lancaster.ac.uk">damian.arellanes@lancaster.ac.uk</a>
+										</li>
+										<!--<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>-->
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; 2026 The Computons Project. All rights reserved.</li><li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

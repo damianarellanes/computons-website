@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="58.920959mm"
+   height="37.099926mm"
+   viewBox="0 0 58.920959 37.099926"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/Users/d/Downloads/project-logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.98096496"
+     inkscape:cx="-14.781364"
+     inkscape:cy="327.73852"
+     inkscape:window-width="1572"
+     inkscape:window-height="804"
+     inkscape:window-x="0"
+     inkscape:window-y="39"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-64.75001,-51.210083)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0;font-family:Copperplate;-inkscape-font-specification:Copperplate;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#9691e0;fill-opacity:0.72083336;stroke:#000000;stroke-width:0"
+       x="64.557396"
+       y="88.255684"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Copperplate;-inkscape-font-specification:Copperplate;fill:#9691e0;fill-opacity:0.72083336;stroke-width:0"
+         x="64.557396"
+         y="88.255684">The Computons Project</tspan></text>
+    <path
+       id="rect1"
+       style="fill-opacity:0.99791664;stroke:#000000;stroke-width:0;fill:#fefefe"
+       d="M 73.546402,51.210083 H 83.624984 V 70.550062 H 73.546402 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path1"
+       style="fill-opacity:0.99791664;stroke:#000000;stroke-width:0;fill:#fefefe"
+       d="M 87.166106,56.385571 H 97.244688 V 75.72555 H 87.166106 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path2"
+       style="fill-opacity:0.99791664;stroke:#000000;stroke-width:0;fill:#fefefe"
+       d="m 100.78581,60.743876 h 10.07858 v 19.339979 h -10.07858 z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:0;font-family:Copperplate;-inkscape-font-specification:Copperplate;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#9691e0;fill-opacity:0.720833;stroke:#000000;stroke-width:0"
+       x="61.911564"
+       y="163.92651"
+       id="text1-3"
+       inkscape:export-filename="/Users/d/Downloads/project-logo.png.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Copperplate;-inkscape-font-specification:Copperplate;fill:#9691e0;fill-opacity:0.720833;stroke-width:0"
+         x="61.911564"
+         y="163.92651">The Computons Project</tspan></text>
+    <path
+       id="rect1-5"
+       style="fill:#6576fe;fill-opacity:0.997917;stroke:#000000;stroke-width:0"
+       d="m 70.900569,126.88092 h 10.078582 v 19.33997 H 70.900569 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path1-9"
+       style="fill:#6576fe;fill-opacity:0.997917;stroke:#000000;stroke-width:0"
+       d="m 84.520273,132.0564 h 10.078582 v 19.33998 H 84.520273 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path2-5"
+       style="fill:#6576fe;fill-opacity:0.997917;stroke:#000000;stroke-width:0"
+       d="m 98.139977,136.41471 h 10.078583 v 19.33998 H 98.139977 Z"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
