@@ -3941,3 +3941,7 @@ input, select, textarea {
 			height: auto;
 			z-index: 10000;
 		}
+
+		a.underline {
+			border-bottom: 1px solid;
+		}
