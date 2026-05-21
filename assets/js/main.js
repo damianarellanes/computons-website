@@ -24,12 +24,11 @@
 			$body.addClass('is-ie');
 
 	// Play initial animations on page load.
-		/*$window.on('load', function() {
+		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
-		});*/
-		$body.removeClass('is-preload');
+		});
 
 	// Forms.
 
