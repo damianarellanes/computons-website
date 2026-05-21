@@ -1,11 +1,7 @@
-# Project Title
-
 The Computons Project Website
 
-## Authors
 
-Contributors names:
-
+Contact:
 Dr Damian Arellanes (https://damianarellanes.com)
 Theoretical CS Group @ SCC
 Lancaster University
