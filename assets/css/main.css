@@ -3136,6 +3136,25 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 980px) {
+			.spotlights > section {
+				display: flex;             
+				flex-direction: column;    
+			}
+
+			.spotlights > section > .text {
+				order: 0;                  /* Text comes first */
+			}
+
+			.spotlights > section > .image {
+				order: 1;                  /* Image comes after text */
+				width: 100%;
+				height: auto;   
+				background-position: center center !important;
+				background-color: #fff;           
+			}
+		}
+
 /* Table */
 
 	.table-wrapper {
